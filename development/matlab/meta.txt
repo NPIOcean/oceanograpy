@@ -1,0 +1,180 @@
+################################################################################
+####  FILE METADATA                                                         ####
+################################################################################
+
+###########################
+### GLOBAL ATTRIBUTES   ###
+###########################
+
+# binned:
+1 decibars (SBE software)
+# history:
+2017-09-24 to 2017-09-24: Data collection.
+2018-07-23: Processed to .cnv using SBE software (details in "SBE_processing").
+2023-12-08: Post-processing.
+# latitude:
+80.0318
+# longitude:
+10.8973
+# SBE_processing:
+SBE SOFTWARE PROCESSING STEPS (extracted from .cnv file header):
+- Raw data read from e.g. AT288.HEX, AT288.XMLCON.
+- Bin averaged (1 decibars).
+   > Bad scans not excluded, skipped over 0 initial scans.
+   > (No surface bin).
+# source_files:
+E.g. AT288.HEX, AT288.XMLCON -> AT288.CNV
+# featureType:
+profile
+
+###########################
+### VARIABLE ATTRIBUTES ###
+###########################
+
+--------------------------------------------------
+PRES (coordinate)
+--------------------------------------------------
+# units:
+dbar
+# sensor_serial_number:
+0972
+# sensor_calibration_date:
+20-Feb-14 
+# coverage_content_type:
+coordinate
+
+--------------------------------------------------
+TIME (coordinate)
+--------------------------------------------------
+# units:
+Days since 1970-01-01 00:00
+# standard_name:
+time
+# long_name:
+Start time of profile
+# comment:
+Source: "start_time" header line
+
+--------------------------------------------------
+TEMP1
+--------------------------------------------------
+# units:
+degree_Celsius
+# sensor_serial_number:
+2400
+# sensor_calibration_date:
+11-Apr-17
+# coverage_content_type:
+physicalMeasurement
+# sensor_mount:
+mounted_on_shipborne_profiler
+
+--------------------------------------------------
+PTEMP1
+--------------------------------------------------
+# units:
+degree_Celsius
+# sensor_serial_number:
+2400
+# sensor_calibration_date:
+11-Apr-17
+# coverage_content_type:
+physicalMeasurement
+# sensor_mount:
+mounted_on_shipborne_profiler
+
+--------------------------------------------------
+CNDC1
+--------------------------------------------------
+# units:
+mS cm-1
+# sensor_serial_number:
+3234
+# sensor_calibration_date:
+12Apr-17
+# coverage_content_type:
+physicalMeasurement
+# sensor_mount:
+mounted_on_shipborne_profiler
+
+--------------------------------------------------
+PSAL1
+--------------------------------------------------
+# units:
+1
+# sensor_serial_number:
+2400, 3234
+# sensor_calibration_date:
+11-Apr-17, 12Apr-17
+# coverage_content_type:
+physicalMeasurement
+# sensor_mount:
+mounted_on_shipborne_profiler
+
+--------------------------------------------------
+SIGTH1
+--------------------------------------------------
+# units:
+kg m-3
+# sensor_serial_number:
+2400, 3234
+# sensor_calibration_date:
+11-Apr-17, 12Apr-17
+# coverage_content_type:
+physicalMeasurement
+# sensor_mount:
+mounted_on_shipborne_profiler
+
+--------------------------------------------------
+CHLA1_fluorescence
+--------------------------------------------------
+# units:
+mg m-3
+# sensor_serial_number:
+FLRTD-1547
+# sensor_calibration_date:
+4-Jan-16
+# coverage_content_type:
+physicalMeasurement
+# sensor_mount:
+mounted_on_shipborne_profiler
+
+--------------------------------------------------
+SBE_FLAG
+--------------------------------------------------
+# units:
+
+
+--------------------------------------------------
+STATION
+--------------------------------------------------
+# long_name:
+CTD station ID
+# cf_role:
+profile_id
+
+--------------------------------------------------
+LATITUDE
+--------------------------------------------------
+# standard_name:
+latitude
+# units:
+degree_north
+# long_name:
+latitude
+
+--------------------------------------------------
+LONGITUDE
+--------------------------------------------------
+# standard_name:
+longitude
+# units:
+degree_east
+# long_name:
+longitude
+
+--------------------------------------------------
+CRUISE
+--------------------------------------------------
+# long_name:
+Cruise ID
